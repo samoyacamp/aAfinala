@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="902.0" prefWidth="1016.0" style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="116.0" prefWidth="546.0">
+         <children>
+            <Label layoutX="365.0" layoutY="27.0" prefHeight="83.0" prefWidth="194.0" text="Sing Up" textAlignment="CENTER" textFill="#f8efef">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Label>
+            <TextField fx:id="codigo_usuarios" layoutX="45.0" layoutY="43.0" visible="false" />
+            <ImageView fx:id="image6" fitHeight="109.0" fitWidth="140.0" layoutX="205.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="363.0" prefWidth="1159.0">
+         <children>
+            <TextField fx:id="nombre" layoutX="359.0" layoutY="34.0" text="asdas" />
+            <TextField fx:id="apellido" layoutX="359.0" layoutY="64.0" text="asdas" />
+            <TextField fx:id="email" layoutX="359.0" layoutY="95.0" text="fasfasfa" />
+            <PasswordField fx:id="pwd" layoutX="359.0" layoutY="124.0" text="paco123" />
+            <TextField fx:id="DNI" layoutX="359.0" layoutY="154.0" text="fasfas" />
+            <TextField fx:id="domicilio" layoutX="359.0" layoutY="187.0" text="afsasf" />
+            <TextField fx:id="ciudad" layoutX="359.0" layoutY="222.0" text="asfasfa" />
+            <TextField fx:id="provincia" layoutX="359.0" layoutY="256.0" text="asfas" />
+            <Label layoutX="275.0" layoutY="38.0" text="Nombre" textFill="WHITE" />
+            <Label layoutX="275.0" layoutY="68.0" text="Apellido" textFill="WHITE" />
+            <Label layoutX="283.0" layoutY="99.0" text="Email" textFill="WHITE" />
+            <Label layoutX="268.0" layoutY="128.0" text="Contraseña" textFill="WHITE" />
+            <Label layoutX="287.0" layoutY="158.0" text="DNI" textFill="WHITE" />
+            <Label layoutX="272.0" layoutY="191.0" text="Domicilio" textFill="WHITE" />
+            <Label layoutX="280.0" layoutY="226.0" text="Ciudad" textFill="WHITE" />
+            <Label layoutX="273.0" layoutY="260.0" text="Provincia" textFill="WHITE" />
+            <TextField fx:id="codigo_usuarios" layoutX="359.0" layoutY="290.0" text="53" visible="false" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="70.0" prefWidth="1093.0">
+         <children>
+            <Button fx:id="addUser" layoutX="343.0" layoutY="2.0" mnemonicParsing="false" onAction="#addUser" text="Registrar" textAlignment="CENTER">
+               <effect>
+                  <Reflection topOpacity="0.23">
+                     <input>
+                        <SepiaTone level="0.23" />
+                     </input>
+                  </Reflection>
+               </effect>
+            </Button>
+            <Button fx:id="volver" layoutX="350.0" layoutY="49.0" mnemonicParsing="false" onAction="#volver" text="Volver" textAlignment="CENTER">
+               <effect>
+                  <Reflection topOpacity="0.23">
+                     <input>
+                        <SepiaTone level="0.23" />
+                     </input>
+                  </Reflection>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
